@@ -1,23 +1,3 @@
-// var Vehicle = function (x, y, speed) {
-//   this.x = x;
-//   this.y = y;
-//   this.speed = speed;
-// };
-//
-// Vehicle.prototype.move = function() {
-//   this.x = this.x + this.speed * this.randomStep();
-//   this.y = this.y + this.speed * this.randomStep();
-// };
-//
-// Vehicle.prototype.randomStep = function() {
-//   if (Math.random() < 0.5) {
-//     return -1;
-//   } else {
-//     return 1;
-//   }
-// }
-
-
 // //OO programming
 // class Vehicle {
 //   constructor(x , y, speed, gas) {
@@ -28,6 +8,7 @@
 //   }
 //   move(){
 //     this.x += this.speed;
+//     this.y += this.speed;
 //   }
 // };
 //
