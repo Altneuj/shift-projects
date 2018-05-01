@@ -99,7 +99,7 @@ var printRecipe = function(obj) {
   console.log("Directions");
   console.log("----");
   for (i=0; i < recipe.directions.length; i++) {
-    console.log(i+". " + recipe.directions[i]);
+    console.log((i+1) + ". " + recipe.directions[i]);
   }
 };
 
